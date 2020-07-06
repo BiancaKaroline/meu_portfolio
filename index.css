@@ -1,0 +1,140 @@
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            
+            img {
+                transition: all ease-in .2s;
+            }
+            
+            img:hover {
+                transform: scale(1.2);
+            }
+            
+            body {
+                background-color: #f8f8f5;
+                background-image: url("https://image.freepik.com/vetores-gratis/fundo-de-tecnologia-moderna-com-linhas-e-pontos-de-conexao_1048-7461.jpg");
+                background-attachment: fixed;
+            }
+            
+            .menu {
+                position: fixed;
+                top: 0;
+                background-color: white;
+                width: 100%;
+                height: 60px;
+                border-bottom: 2px solid rgb(243, 241, 241);
+                background-image: url("https://i.pinimg.com/originals/07/89/f2/0789f27aa56a729edc08862f0f1af464.gif");
+                background-repeat: no-repeat;
+                /*para o background não repetir*/
+                background-size: cover;
+                /*para o background ter o tamanho total da div*/
+            }
+            
+            .minha_foto {
+                width: 100%;
+                height: 60vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 50px;
+            }
+            
+            .minha_imagem {
+                width: 300px;
+                height: 300px;
+                margin: 70px auto 0;
+            }
+            
+            .texto {
+                width: 300px;
+                margin: 2% auto;
+                color: black;
+                text-align: center;
+            }
+            
+            ul {
+                text-align: center;
+                list-style-type: none;
+                color: black;
+                display: flex;
+                margin: 20px;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            li {
+                margin-right: 40px;
+                color: whitesmoke;
+            }
+            
+            .onde_me_achar {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 72vh;
+                color: black;
+                margin-top: 335px;
+            }
+            
+            .imagem_linkedin,
+            .imagem_github,
+            .imagem_whatsapp {
+                width: 150px;
+                height: 150px;
+            }
+            
+            .container {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin-top: 150px;
+            }
+            
+            .container_curriculo {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 83vh;
+            }
+            
+            .meu_curriculo h1 {
+                text-align: center;
+                color: black;
+            }
+            
+            .meu_curriculo {
+                margin-top: 50px;
+            }
+            
+            .container_curriculo h2 {
+                color: black;
+                margin-top: 35px;
+            }
+            
+            .imagem-curriculo {
+                margin-top: 0;
+                margin-left: 100px;
+                width: 300px;
+                height: 300px;
+            }
+            
+            a {
+                color: white;
+                text-decoration: white;
+                text-align: center;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            
+            a:hover {
+                text-decoration: underline;
+            }
+            
+            h2:hover {
+                text-decoration: underline;
+                color: black;
+            }
