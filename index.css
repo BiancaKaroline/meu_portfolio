@@ -138,3 +138,17 @@
                 text-decoration: underline;
                 color: black;
             }
+            
+            @media (max-width: 500px) {
+                * {
+                    width: 100%;
+                    text-align: center;
+                }
+                .container {
+                    flex-direction: column;
+                    margin-top: 25px;
+                }
+                .menu ul {
+                    margin: 20px 0px 0 26px;
+                }
+            }
